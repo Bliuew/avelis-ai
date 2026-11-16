@@ -1,0 +1,32 @@
+AVELIS AI — VISUAL INTELLIGENCE DEMO • NOVEMBER 2026
+
+This update extends the working Avelis AI website; it does NOT replace the original identity, logos, marketing pages, or existing prototype functionality.
+
+HOW TO DEPLOY (public GitHub Pages only)
+1. Back up the currently published index.html.
+2. Upload the provided single-file index.html into the root of your GitHub repository (Bliuew/avelis-ai) on main, replacing the previous index.html.
+3. Wait until GitHub Pages reports successful deployment.
+4. Visit https://bliuew.github.io/avelis-ai/#demo and test the new Visual Intelligence Command Centre.
+5. Test https://bliuew.github.io/avelis-ai/#advisor-preview ; the fictional dataset is loaded automatically.
+
+DEMO WALKTHROUGH FOR REVIEWERS
+• Review all four calculated KPI cards and the legend explaining the synthetic dataset.
+• Change 7 days → 14 days or 21 days; select a different numeric metric in the chart.
+• Inspect the donut chart (fictional error-rate bands), category comparison table and local activity.
+• Click Analyze your CSV, choose an appropriate non-confidential CSV, and observe both dashboards update from that CSV.
+• Download the analysis summary and visual snapshot.
+• Test the original workspaces, approvals and local audit exports.
+
+IMPORTANT PRODUCT BOUNDARIES
+• The built-in data, connector names and activity are fictional and DO NOT show real customer traction.
+• Browser calculations are real and deterministic; NOT generative AI, forecasting, monitoring or deployed integrations.
+• Local approval records never grant permission to actual systems.
+• User-selected CSV files stay in memory in the visitor's browser; do NOT upload confidential or personal data to a public demonstration.
+• Live pilot form submissions and the private reviewer service remain disabled until the separate authenticated backend is deployed and configured. NEVER put private reviewer records or secrets on GitHub Pages.
+• This package contains ONLY the public website sources. Continue the private reviewer backend implementation from the previously supplied separate package.
+
+SOURCE TREE
+index.html — single-file GitHub Pages deployment.
+public/ — editable HTML, CSS, JS and original logo assets.
+sample/ — fictional CSV data.
+No credentials, customer data or real traction claims are included.
